@@ -1,9 +1,11 @@
 body {
 font-family: Roboto, Arial, sans-serif;
-color: ;
+color: tomato ;
 font-size: 14px;
 line-height: 1.5;
 }
+
+.page-header {}
 
 .site-nav {
         font-style: normal;
@@ -21,7 +23,12 @@ line-height: 1.5;
 /* WebStudio */
 
 /* Студія */
-
+.studio {
+color: #212121;
+}
+.studio:hover {
+color: #2196F3;
+}
 /* Портфоліо */
 
 /* Контакти */
