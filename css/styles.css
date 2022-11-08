@@ -5,7 +5,9 @@ font-size: 14px;
 line-height: 1.5;
 }
 
-.page-header {}
+.page-header {
+
+}
 
 .site-nav {
         font-style: normal;
@@ -34,9 +36,13 @@ color: #2196F3;
 /* Контакти */
 
 /* info@devstudio.com */
-
+.contact-link-email {
+     color: #2196F3;
+}
 /* +38 096 111 11 11 */
-
+.contact-link-phone {
+     color: #757575;
+}
 
 /* Секція 1 */
 
