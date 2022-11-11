@@ -4,7 +4,9 @@ color: #212121;
 font-size: 14px;
 line-height: 1.5;
 }
+.page{
 
+}
 .page-header {
 
 }
@@ -34,7 +36,9 @@ color: #2196F3;
 /* Портфоліо */
 
 /* Контакти */
-
+.site-info{
+     
+}
 /* info@devstudio.com */
 .contact-link-email {
      color: #2196F3;
