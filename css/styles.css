@@ -24,18 +24,20 @@ line-height: 1.5;
 .page .secondpart-logo {
 
 }
-
-.site-nav {
+/* Site-nav */
+.site-nav .link {
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-    
-        color: #212121;
+        color: #212121
 
 }
-
+.site-nav .link:hover,
+.site-nav .link:focus {
+      color: #2196F3;
+}
 /* Верхня лінія */ /* top line bg */
 
 /* WebStudio */
@@ -44,7 +46,8 @@ line-height: 1.5;
 .studio {
 color: #212121;
 }
-.studio:hover {
+.studio:hover, 
+.studio:focus{
 color: #2196F3;
 }
 /* Портфоліо */
@@ -55,6 +58,10 @@ color: #2196F3;
 }
 /* info@devstudio.com */
 .contact-link-email {
+     color: #212121;
+}
+.contact-link-email:hover,
+.contact-link-email:focus{
      color: #2196F3;
 }
 /* +38 096 111 11 11 */
@@ -148,7 +155,7 @@ color: #2196F3;
       margin-right: px;
       margin-bottom: px;
       margin-left: em;
-      
+
       padding-top: ;
       padding-right: px;
       padding-bottom: px;
