@@ -10,6 +10,20 @@ line-height: 1.5;
 .page-header {
 
 }
+.page .firstpart-logo{
+          
+     
+          font-family: 'Raleway';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 31px;
+          letter-spacing: 0.03em;
+          color: #2196F3;
+}
+.page .secondpart-logo {
+
+}
 
 .site-nav {
         font-style: normal;
@@ -118,16 +132,48 @@ color: #2196F3;
 
 
 /* Підвал */ /* Footer bg */
+.footer{
+      background: #2F303A;
+}
+.footer-address-link{
 
+}
+.footer-links-list{
+
+}
 /* WebStudio */
 
-/* identical to box height */
+.footer-item{
+      margin-top: px;
+      margin-right: px;
+      margin-bottom: px;
+      margin-left: em;
+      
+      padding-top: ;
+      padding-right: px;
+      padding-bottom: px;
+      padding-left: em;
+}
 
 /* м. Київ, пр-т Лесі Українки, 26 */
-
-/* or 171% */
+.footer-links-link {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+}
 
 /* info@devstudio.com */
 
 /* +38 096 111 11 11 */
-
+.footer-link {
+     font-family: 'Roboto';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
