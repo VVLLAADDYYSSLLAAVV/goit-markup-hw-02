@@ -4,17 +4,34 @@
 --accent-color: #2196F3;
 --primary-white-color: #FFFFFF;
 --title-fon-color: #F5F5F5;
-
+--button-color: #F5F4FA;
 }
 
 body {
 font-family: Roboto, sans-serif;
-background-color: #F5F5F5;
+background-color: var(--primary-white-color);
 color: #212121;
 font-size: 14px;
 line-height: 1.5;
 }
 
+.visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+}
+
+a{
+     text-decoration: none ;
+
+}
 ul{
      list-style: none;
 }
@@ -97,6 +114,35 @@ color: #2196F3;
 }
 
 /* Секція 1 */
+.hero{
+     background-color: #2F303A;
+}
+
+.hero-title{
+      font-style: normal;
+          font-weight: 900;
+          font-size: 44px;
+          line-height: 1.36;
+          text-align: center;
+          letter-spacing: 0.06em;
+          text-transform: uppercase;
+      color: var(--primary-white-color);
+}
+
+.hero-button{
+      font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 1.88;
+          display: flex;
+          align-items: center;
+          text-align: center;
+          letter-spacing: 0.06em;
+     
+          color: var(--primary-white-color);
+          background-color: var(--accent-color);
+          border: transparent;
+}
 
 /* Шапка */
 
@@ -105,17 +151,23 @@ color: #2196F3;
 /* Ефективні рішення для вашого бізнесу */
 /* Button */
 .button{ 
-     font-family: inherit;
-     color: var(--primary-text-color) ;
-     background-color:var(--primary-white-color) ;
+      font-family: inherit;
+      color: var(--primary-text-color) ;
+      background-color: var(--button-color) ;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+     border: transparent;
 }
-.button.primary {
-     background-color: var(--accent-color);
-     color: var(--primary-white-color);
-}
-.button.secondary {
-background-color: var(--primary-white-color);
-color: var(--accent-color);
+
+.button:hover,
+.button:focus{
+      color: var(--primary-white-color);
+      background-color: var(--accent-color);
 }
 
 .gallery{
@@ -132,12 +184,33 @@ color: var(--accent-color);
 
 .gallery-title{
 
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 2;
+      letter-spacing: 0.06em;
+      color: var(--primary-text-color);
+
 }
 
 .gallery-text{
-
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.03em;
+      color: var(--title-text-color);
 }
 
+.profile{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 1.33;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--primary-text-color);
+}
 
 /* Замовити послугу */
 
@@ -216,7 +289,7 @@ color: var(--accent-color);
       margin-bottom: px;
       margin-left: em;
 
-      padding-top: ;
+      
       padding-right: px;
       padding-bottom: px;
       padding-left: em;
@@ -244,3 +317,4 @@ color: var(--accent-color);
      line-height: 1.71;
      letter-spacing: 0.03em;
      color: rgba(255, 255, 255, 0.6);
+}
